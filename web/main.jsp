@@ -16,7 +16,7 @@
             <strong><center><font size="10"> RentCar, Seu Carro Já! </font><center></strong><br/><br><br><br><br><br><br><br>
             <table><br>
                 <tr alight="center">
-                    <td><input type ="submit" style="height:70px;width:100px" value="Carro"/></td>
+                    <td><input type ="button" style="height:70px;width:100px" value="Carro" onclick="cliente.jsp"/></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
