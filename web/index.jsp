@@ -12,9 +12,10 @@
         <title>RentCar!</title>
     </head>
     <body>
-        <form action ="main.jsp" method="post">
+        <form action ="loginUsuario" method="post">
             <strong><center><font size="10"> RentCar, Seu Carro Já! </font><center></strong><br/><br><br><br><br><br><br><br>
             <table>
+                <strong><center><font size="10"> ${msgErro} </font><center></strong
                 <tr alight="center">
                     <td>
                         <div align="right">
