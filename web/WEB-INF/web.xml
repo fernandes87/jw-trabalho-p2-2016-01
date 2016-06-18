@@ -4,9 +4,19 @@
         <servlet-name>Login</servlet-name>
         <servlet-class>br.com.rentcar.CONTROL.Login</servlet-class>
     </servlet>
-    
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
-        <url-pattern>/loginUsuario</url-pattern>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Main</servlet-name>
+        <servlet-class>br.com.rentcar.CONTROL.Main</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Main</servlet-name>
+        <url-pattern>/Main</url-pattern>
     </servlet-mapping>
 </web-app>

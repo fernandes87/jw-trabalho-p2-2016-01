@@ -12,10 +12,9 @@
         <title>RentCar!</title>
     </head>
     <body>
-        <form action ="loginUsuario" method="post">
+        <form action ="Login" method="post">
             <strong><center><font size="10"> RentCar, Seu Carro Já! </font><center></strong><br/><br><br><br><br><br><br><br>
             <table>
-                <strong><center><font size="10"> ${msgErro} </font><center></strong
                 <tr alight="center">
                     <td>
                         <div align="right">
@@ -26,6 +25,8 @@
                     </td>
                 </tr>
             </table>
+            <br><br><br><br><br>
+            <font size="2" color="red"> ${msgErro} </font>
         </form>
     </body>
 </html>

@@ -25,18 +25,16 @@ public class Login extends HttpServlet {
         String usuario = request.getParameter("edtUsuario");
         String senha = request.getParameter("edtSenha");
         
-        if(ValidateUser.checkUser(usuario, senha))
-         {
+        if(ValidateUser.checkUser(usuario, senha)){
             //manda msg e vai para o main.jsp
-             RequestDispatcher dispatcher = request.getRequestDispatcher("/main.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/main.jsp");
             dispatcher.forward(request, response);
         }
-        else
-        {
+        else{
             //manda msg e volta para index.jsp
             String msg = "Usuario ou Senha incorreto!";
             request.setAttribute("msgErro", msg);
-             RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
             dispatcher.forward(request, response);
         }
     }

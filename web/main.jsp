@@ -12,23 +12,23 @@
         <title>RentCar!</title>
     </head>
     <body>
-        <form action ="carro.jsp" method="post">
+        <form action="Main" method="post">
             <strong><center><font size="10"> RentCar, Seu Carro Já! </font><center></strong><br/><br><br><br><br><br><br><br>
             <table><br>
                 <tr alight="center">
-                    <td><input type ="button" style="height:70px;width:100px" value="Carro" onclick="cliente.jsp"/></td>
+                    <td><input type ="submit" name="btCarro" style="height:70px;width:100px" value="Carro" onclick="cliente.jsp"/></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    <td><input type ="submit" style="height:70px;width:100px" value="Cliente"/></td>
+                    <td><input type ="submit" name="btCliente" style="height:70px;width:100px" value="Cliente"/></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    <td><input type ="submit" style="height:70px;width:100px" value="Rent"/></td>
+                    <td><input type ="submit" name="btAluguel" style="height:70px;width:100px" value="Aluguel"/></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
                     <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    <td><input type ="submit" style="height:70px;width:100px" value="Relatório"/></td>
+                    <td><input type ="submit" name="btRelatorio" style="height:70px;width:100px" value="Relatorio"/></td>
                 </tr>
             </table>
         </form>
