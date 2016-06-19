@@ -13,30 +13,29 @@
     </head>
     <body>
         <h1><center><font size="10"> RentCar, Seu Carro Já! </font></center></h1>
-        <form action="" method="post">
+        <form action="Cliente" method="post">
             <strong><center><font size="5"> Cadastro de Clientes </font></center></strong><br><br><br>
             <table align="center" border="0">
                 <tbody>
                     <tr>
                         <td>Nome: </td>
-                        <td><input type="text" name="nome" size="50"/></td>
+                        <td><input type="text" name="edtNome" size="50"/></td>
                     </tr>
                         
                     <tr>
                         <td>Cpf: </td>
-                        <td><input type="text" name="cpf" size="20"/></td>
+                        <td><input type="text" name="edtCpf" size="20"/></td>
                     </tr>
                     
                     <tr>
                         <td>Telefone: </td>
-                        <td><input type="text" name="telefone" size="20"/></td>
+                        <td><input type="text" name="edtTelefone" size="20"/></td>
                     </tr>
                     
                     <tr>
                         <td>E-mail: </td>
-                        <td><input type="text" name="email" size="40"/></td>
+                        <td><input type="text" name="edtEmail" size="40"/></td>
                     </tr>
-
                     
                 </tbody>
                 

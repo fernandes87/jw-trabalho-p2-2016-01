@@ -23,7 +23,9 @@ public class ClienteDAOImpl implements ClienteDAO {
 
     private final String INSERT_QUERY = "insert into cliente_tb (cod_cliente,nom_cliente,num_cpf,telefone,email) values (?,?,?,?,?)";
     private final String SELECT_ALL_QUERY = "select * from cliente_tb";
+    private final String DELETE_QUERY = "delete from cliente_tb where cod_cliente = ?";
     private final String SELECT_BY_ID_QUERY = "select * from cliente_tb where cod_cliente = ? ";
+    
     public final void save(Cliente c) throws JavaWebException {
         Connection conn = null;
         ResultSet rs = null;

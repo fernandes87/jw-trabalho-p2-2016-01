@@ -20,7 +20,7 @@ public class ValidateUser {
       Connection conn = null;
       
       try{
-          conn = ConnectionManager.getConexao();
+         conn = ConnectionManager.getConexao();
          PreparedStatement ps = conn.prepareStatement ("select * from login_tb where usuario=? and senha=?");
          ps.setString(1, usuario);
          ps.setString(2, senha);
@@ -31,6 +31,7 @@ public class ValidateUser {
       {
           e.printStackTrace();
       }
-         return st;                 
+      
+      return st;                 
     }
 }
