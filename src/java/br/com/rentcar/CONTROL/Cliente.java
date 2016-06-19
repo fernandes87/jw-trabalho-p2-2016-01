@@ -18,7 +18,15 @@ import br.com.rentcar.UTIL.JavaWebException;
  * @author LEONE
  */
 public class Cliente extends HttpServlet {
-     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        
+        String nome = request.getParameter("edtNome");
+        String cpf = request.getParameter("edtCpf");
+        String telefone = request.getParameter("edtTelefone");
+        String email = request.getParameter("edtEmail");
+        
+        ClienteDAOImpl clnt = new ClienteDAOImpl();
+        //clnt.save(c);
         
         RequestDispatcher dispatcher = request.getRequestDispatcher("/cliente.jsp");
         dispatcher.forward(request, response);
